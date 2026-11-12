@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hypnogram</title>
+<link rel="apple-touch-icon" href="hypnogram.png">
+<link rel="icon" href="hypnogram.png">
+<link rel="manifest" href="hypnogram.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Hypnogram">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#151C2F">
+<style>
+html,body{margin:0;height:100%;background:#151C2F;color:#E6E9F2;font:17px/1.4 -apple-system,BlinkMacSystemFont,sans-serif}
+main{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;box-sizing:border-box;text-align:center}
+img{width:96px;height:96px;border-radius:22px}
+a.go{background:#E6E9F2;color:#151C2F;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:12px}
+p{margin:0;max-width:320px;opacity:.8;font-size:15px}
+</style></head><body><main>
+<img src="hypnogram.png" alt="">
+<a class="go" id="go" href="https://claude.ai/artifact/Y6W8r31K3j4yDveXJ3KuVr">Open Daily Hypnogram</a>
+<p id="tip">To install: tap Share, then Add to Home Screen, and keep Open as Web App on.</p>
+</main>
+<script>
+var URL_="https://claude.ai/artifact/Y6W8r31K3j4yDveXJ3KuVr";
+var installed=window.navigator.standalone===true||matchMedia("(display-mode: standalone)").matches;
+if(installed){document.getElementById("tip").textContent="Opening…";location.replace(URL_);}
+</script>
+</body></html>

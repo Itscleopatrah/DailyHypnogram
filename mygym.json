@@ -1,0 +1,17 @@
+{
+ "name": "MyGym",
+ "short_name": "MyGym",
+ "start_url": "mygym.html?launch=1",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#FFF4F2",
+ "theme_color": "#FFF4F2",
+ "icons": [
+  {
+   "src": "mygym.png",
+   "sizes": "1024x1024",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "name": "Daily Hypnogram",
+ "short_name": "Hypnogram",
+ "start_url": "hypnogram.html?launch=1",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#151C2F",
+ "theme_color": "#151C2F",
+ "icons": [
+  {
+   "src": "hypnogram.png",
+   "sizes": "1024x1024",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
